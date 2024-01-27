@@ -1,0 +1,33 @@
+.headerImg{
+    max-width: 100%;
+    height: auto;
+}
+
+.greeting{
+    /* float: right; */
+    position: fixed;
+    left: 20%;
+    top: 45%;
+    text-align: center;
+    color: rgb(57, 55, 55);
+    font-family: "Source Code Pro", monospace;
+}
+
+.myimage{
+    max-width: 200px;
+    max-height: 250px;
+    position: fixed;
+    left: 50%;
+    top: 30%;
+    /* border: solid 3px rgb(63, 61, 61); */
+    border-radius: 5%;
+} 
+ 
+@media screen and (max-width: 100px) {
+    .myimage{        
+        position: fixed;
+        left: 30%;
+        top: 100%;
+    } 
+}  
+  

@@ -1,0 +1,14 @@
+.contactDetails{
+    background-color: rgb(124, 200, 219);
+    border: 3px solid rgb(57, 55, 55);
+    border-radius: 5px;
+    font-family: "Source Code Pro", monospace;
+    font-size: 15px;
+    text-align: center;
+    max-width: 30%;
+    padding: 20px;
+    position: fixed;
+    left: 10%;
+    top: 30%;
+
+}

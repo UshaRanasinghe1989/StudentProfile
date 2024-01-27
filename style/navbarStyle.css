@@ -1,0 +1,97 @@
+
+body{
+    margin: 0;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(100, 201, 204));
+    /* overflow: hidden; */
+}
+.title{
+    position: fixed;
+    left: 20%;
+    top: 0%;
+    max-width: 50%;
+    font-display: block;
+    font-family: "Dancing Script", cursive;
+    font-size: 50px;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    width: 225px;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(99, 101, 101);
+}
+
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+.navbar li a{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    /* font-weight: bold; */
+    font-family: "Barlow Condensed", sans-serif;
+    margin: 50px 10px 10px 10px;  
+}
+
+.navbar li a.active{
+    background-color: rgb(18, 167, 167);
+    color: rgb(189, 192, 192);
+}
+
+.navbar li a:hover{
+    background-color: rgb(189, 192, 192);
+    color: rgb(59, 61, 61);
+}
+
+.navbar li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+
+.navbar li a:visited{
+    color: black;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(99, 101, 101);
+    color: rgb(189, 192, 192);
+    text-align: center;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}  
+
+/* @media screen and (max-width: 700px) {
+    
+    .navbar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .navbar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .navbar a {
+      text-align: center;
+      float: none;
+    }
+  } */

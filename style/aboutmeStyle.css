@@ -1,0 +1,21 @@
+.aboutmeList ul{
+    list-style: none;
+}
+
+.aboutmeList{
+    list-style: none;
+    background-color: rgb(124, 200, 219);
+    border: 3px solid rgb(57, 55, 55);
+    border-radius: 5px;
+    font-family: "Source Code Pro", monospace;
+    font-size: 15px;
+    max-width: 50%;
+    padding: 5px;
+    position: fixed;
+    left: 10%;
+    top: 30%;
+}
+
+.nestedUl{
+    text-indent: 20px;
+}
